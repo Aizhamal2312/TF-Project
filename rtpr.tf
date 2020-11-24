@@ -3,7 +3,7 @@ resource "aws_route_table" "rtpr" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = "${aws_eip.nat.id}"
+    gateway_id = "${aws_nat_gateway.gw.id}"
   }
 }
 
