@@ -5,6 +5,8 @@ resource "aws_route_table" "rtpr" {
     cidr_block = "0.0.0.0/0"
     gateway_id = "${aws_nat_gateway.gw.id}"
   }
+
+  tags = "${var.tags}"
 }
 
 resource "aws_route_table_association" "d" {
