@@ -1,12 +1,5 @@
 # TF-Project Team2 VPC Module
 
-
-
-
-
-
-
-
 This module creates a VPC in a region specified by the user.
 In addition to that it also does the following : 
    1. creates:
