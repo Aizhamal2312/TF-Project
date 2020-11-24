@@ -1,6 +1,13 @@
 # TF-Project Team2 VPC Module
 
-This module creates a VPC in a region specified by the user in the 
+
+
+
+
+
+
+
+This module creates a VPC in a region specified by the user.
 In addition to that it also does the following : 
    1. creates:
         a. 3 public subnets 
@@ -16,9 +23,5 @@ In addition to that it also does the following :
         c. the 3 public subnets to the public route table
         d. the 3 public subnets to the private route table
 
-## Installation 
 
-
-
-## Usage 
 
