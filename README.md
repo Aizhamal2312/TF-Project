@@ -16,17 +16,20 @@ sudo yum install git -y      # Installs git
 
 git init                     # Initializes git
 
-git clone https://github.com/ortacu/TF-Project.git        # Clones repo into a folder on your machine
+git clone https://github.com/ortacu/TF-Project.git        # Clones repo into a directory on your machine
  
-cd TF-Project           # Changes directory to cloned directory
+cd TF-Project           # Changes working directory to cloned directory
 
-cd test-project         # Changes directory to application module       directory 
+cd test-project         # Changes directory to module directory 
 
 terraform init          # Initializes Terraform  
  
-teraform plan           # Previews the output of the application
+teraform plan           # Previews the output of the module
 
-terraform apply         # Runs the application
+terraform apply         # Runs the module 
+
+
+If resources are not needed at any point in time, run "terraform destroy" to delete all resources created by the module. Keep in mind that you have to run this command from the module directory
 
 
 ## Usage
