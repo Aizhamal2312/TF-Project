@@ -22,7 +22,7 @@ cd TF-Project           # Changes directory to cloned directory
 
 cd test-project         # Changes directory to application module       directory 
 
-terraform init          # Initialises Terraform  
+terraform init          # Initializes Terraform  
  
 teraform plan           # Previews the output of the application
 
