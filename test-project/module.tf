@@ -14,7 +14,7 @@ module "VPC" {
     Environment = "Dev"
     Team        = "DevOps.Team2"
     Department  = "Operations"
-    Bill        = "CFO"
+    Bill        = "Finance"
     Quarter     = "4"
   }
 }
