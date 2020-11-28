@@ -5,7 +5,9 @@ This module creates a VPC in a region specified by the user.
 
 ## Prerequisites
 
-   git, terraform
+   Git
+   Terraform
+   AWS account
 
 
 ## Installation
@@ -49,3 +51,8 @@ Creates the whole enviroment together with the VPC to enable the multitude of re
         b. the 3 private subnets to the nat gateway    
         c. the 3 public subnets to the public route table
         d. the 3 public subnets to the private route table
+
+
+## Resources
+
+To verify resources that were created, go to your AWS account and check in the region you specified
